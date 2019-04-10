@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <com.jake.drawgrid.MyGridView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:column="4"
+    app:column_space="10dp"
+    app:item_count="20"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    android:background="@color/colorPrimaryDark"
+    app:row_space="10dp"
+    />
+
+</android.support.constraint.ConstraintLayout>

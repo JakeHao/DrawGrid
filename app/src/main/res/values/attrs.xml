@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="MyGridView">
+    <attr name="column_space" format="dimension"></attr>
+    <attr name="row_space" format="dimension"></attr>
+    <attr name="column" format="integer"></attr>
+    <attr name="item_count" format="integer"></attr>
+  </declare-styleable>
+</resources>
